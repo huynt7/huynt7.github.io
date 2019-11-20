@@ -1,0 +1,11 @@
+Package: com.nghiacutevl.demo
+Version: 1.0
+Section: Utilities
+Maintainer: TeamML
+Architecture: iphoneos-arm
+Filename: ./debs/qangu.deb
+Size: 878
+MD5sum: 223af15a4524a898e077876966c8641e
+Description: Quyền Anh ơi sao mày hành xác tao như thế này?
+Name: TeamML Muôn Năm
+Author: TeamML
