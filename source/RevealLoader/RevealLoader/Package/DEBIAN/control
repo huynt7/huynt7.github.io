@@ -1,0 +1,10 @@
+Package: RevealLoader
+Name: RevealLoader
+Version: 16.0
+Installed-Size: 1900
+Description: RevealLoader，使用reveal 16版本的动态库，自己替换/Library/RevealLoader/libReveal.dylib
+Section: System
+Depends: AppList
+Priority: optional
+Architecture: iphoneos-arm
+Maintainer: anonymous
