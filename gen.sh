@@ -1,11 +1,11 @@
 #!/bin/bash
 find ../ -name ".DS_Store" -depth -exec rm {} \;
 
-for file in `ls ../projects`
+for file in `ls ..wemy/projects`
     do
-      if [[ -d "../projects/$file" ]]; then
+      if [[ -d "..wemy/projects/$file" ]]; then
         mkdir -p "./debs/$file"
-        dpkg-deb -bZgzip "../projects/$file" "./debs/$file"
+        dpkg-deb -bZgzip "..wemy/projects/$file" "./debs/$file"
 			fi
     done
 
