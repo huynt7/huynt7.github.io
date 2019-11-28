@@ -1,11 +1,11 @@
-Package: com.nghiacutevl.demo
+Package: com.wemy-repo.LienQuan
 Version: 1.31.1.7
 Section: Utilities
 Maintainer: TeamML
 Architecture: iphoneos-arm
-Filename: ./debs/qangu.deb
-Size: 878
-MD5sum: 223af15a4524a898e077876966c8641e
-Description: Quyền Anh ơi sao mày hành xác tao như thế này?
-Name: TeamML Muôn Năm
-Author: TeamML
+Filename: ./debs/wLienQuan/LienQuan.deb
+Size: 1042896
+MD5sum: c7d69a357738c0730b3370fe00ac93ad
+Description: Hack MAP Liên Quân Mobile
+Name: Liên Quân (Hack Map) copy by WEMY
+Author: wemy
