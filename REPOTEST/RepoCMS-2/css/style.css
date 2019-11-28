@@ -1,0 +1,135 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+html {
+	background-color: white;
+	background-image: radial-gradient(circle, #fff, #eee);
+	color: #667;
+	display: table;
+}
+body {
+	display: table-cell;
+	font: 16px sans-serif;
+	vertical-align: middle;
+	text-align: center;
+}
+
+@-webkit-keyframes popup_appear {
+	0% { -webkit-transform: scale(0) }
+	80% { -webkit-transform: scale(1.15) }
+	100% { -webkit-transform: scale(1) }
+}
+@keyframes popup_appear {
+	0% { transform: scale(0) }
+	80% { transform: scale(1.15) }
+	100% { transform: scale(1) }
+}
+
+div.popup {
+	-webkit-animation: popup_appear 400ms ease 0s 1 normal none;
+	animation: popup_appear 400ms ease 0s 1 normal none;
+	color: white;
+	font-size: 17px;
+	margin: 0 auto;
+	padding: 1em 1em 1.3em;
+	position: relative;
+	text-shadow: 0px -1px black;
+	width: 267px;
+}
+
+div.popup::before {
+	-webkit-border-image: url(popup.png) 60 0 62 0 fill;
+	border-image: url(popup.png) 60 0 62 0 fill;
+	border-width: 30px 0px 31px 0px;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+div.popup > h1 {
+	font-size: inherit;
+	margin: 0;
+}
+
+div.popup > p {
+	margin: 1em 0;
+}
+
+div.popup > p > input[type="text"] {
+	box-sizing: border-box;
+	color: black;
+	font-size: 1.1em;
+	margin: 0;
+	padding: .1em;
+	text-align: center;
+	-webkit-user-modify: read-only;
+	user-modify: read-only;
+	-webkit-user-select: none;
+	user-select: none;
+	width: 100%;
+}
+
+div.popup > div {
+	overflow: auto;
+}
+
+/* Préchargeur pour les images des boutons {{{ */
+div.popup > div::before {
+	background-image: url(popbtn.png), url(popbtnactive.png);
+	content: "";
+}
+/* }}} */
+
+div.popup > div > a {
+	color: inherit;
+	display: block;
+	float: left;
+	font-family: Helvetica, sans-serif;
+	line-height: 43px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: inherit;
+	width: 130px;
+}
+
+div.popup > div > a:first-child ~ a {
+	float: right;
+}
+
+div.popup > div > a::before {
+	-webkit-border-image: url(popbtn.png) 0 10 0 10 fill;
+	border-image: url(popbtn.png) 0 10 0 10 fill;
+	border-width: 0px 5px 0px 5px;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+div.popup > div > a:active::before {
+	-webkit-border-image-source: url(popbtnactive.png);
+	border-image-source: url(popbtnactive.png);
+}
+
+/* Support des vieux navigateurs */
+div.popup {
+	background: blue;
+}
+div.popup:not([ltcss3]) {
+	background: none;
+}
+div.popup > div > a {
+	background: darkblue;
+}
+div.popup > div > a:not([ltcss3]) {
+	background: none;
+}

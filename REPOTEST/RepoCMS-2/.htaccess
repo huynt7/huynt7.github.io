@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^(.*).(gz|gzip)$ /visitor.php?file=$1.$2 [R,L]
+RewriteCond %{REQUEST_URI} .*premium.*
+RewriteRule ^(.*).(deb|zip)$ /premium/downloads/counter.php?file=$1.$2 [R,L]
+RewriteCond %{REQUEST_URI} !.*premium.*
+RewriteRule ^(.*).(deb|zip)$ /downloads/counter.php?file=$1.$2 [R,L]

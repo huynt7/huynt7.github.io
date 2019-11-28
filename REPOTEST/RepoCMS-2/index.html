@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>My Cydia iG</title>
+		<meta content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width" name="viewport" />
+		<meta content="source, repo, cydia, jailbreak" name="keywords" />
+		
+		<link href="css/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="popup">
+			<h1>Add this repo into cydia</h1>
+			<p>
+			  <input type="text" id="url_field" value="http://repo.my-cydia-ig.de" contenteditable="true">
+			</p>
+			<script>document.getElementById('url_field').value=window.location.href</script>
+			<div>
+				<a href="downloads.php">Stats</a>
+				<a href="cydia://sources/add">ADD</a>
+			</div>
+		</div>
+	</body>
+</html>
