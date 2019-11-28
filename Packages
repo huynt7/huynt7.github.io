@@ -1,7 +1,7 @@
 Package: com.wemy-repo.LienQuan
 Version: 1.31.1.7
-Section: Utilities
-Maintainer: TeamML
+Section: Hack Game
+Maintainer: wemy
 Architecture: iphoneos-arm
 Filename: ./debs/wLienQuan/LienQuan.deb
 Size: 1042896
