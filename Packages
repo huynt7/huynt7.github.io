@@ -9,3 +9,17 @@ MD5sum: c7d69a357738c0730b3370fe00ac93ad
 Description: Hack MAP Liên Quân Mobile
 Name: Liên Quân (Hack Map) copy by WEMY
 Author: wemy <tuanhuycntt@gmail.com>
+
+
+
+Package: com.k.simcity
+Version: 1.29.3
+Section: Hack Game
+Maintainer: wemy
+Architecture: iphoneos-arm
+Filename: ./debs/wSimCity/SimCity.deb
+Size: 1040420
+MD5sum: c7d69a357738c0730b3370fe00ac93ad
+Description: Hack Tiền SimCity
+Name: SimCity (Hack full tiền)
+Author: wemy <tuanhuycntt@gmail.com>
