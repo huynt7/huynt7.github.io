@@ -21,3 +21,15 @@ MD5sum: c7d69a357738c0730b3370fe00ac93ad
 Description: Hack Tiền SimCity
 Name: SimCity (Hack full tiền)
 Author: wemy <tuanhuycntt@gmail.com>
+
+Package: com.laxus.zombietsunami
+Version: 4.1.2
+Section: Hack Game
+Maintainer: wemy
+Architecture: iphoneos-arm
+Filename: ./debs/wZombieTSunami/ZombieTSunami.deb
+Size: 1036830
+MD5sum: d05fccef100c9c445ef34ecaac4dac56
+Description: Hack Tiền ZombieTSunami
+Name: ZombieTSunami (Hack)
+Author: wemy <tuanhuycntt@gmail.com>
