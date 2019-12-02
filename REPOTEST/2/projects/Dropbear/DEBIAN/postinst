@@ -1,5 +1,0 @@
-#!/bin/sh
-
-launchctl load /Library/LaunchDaemons/dropbear.plist
-
-exit 0
