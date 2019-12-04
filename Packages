@@ -3,7 +3,7 @@ Version: 1.31.1.7
 Section: Hack Game
 Maintainer: wemy
 Architecture: iphoneos-arm
-Filename: ./debs/wLienQuan/io.wemy.game.LienQuan.deb
+Filename: ./debs/wLienQuan/com.wemy.game.LienQuan.deb
 Size: 1042896
 MD5sum: c7d69a357738c0730b3370fe00ac93ad
 Description: Hack MAP Liên Quân Mobile
@@ -15,7 +15,7 @@ Version: 1.29.3
 Section: Hack Game
 Maintainer: wemy
 Architecture: iphoneos-arm
-Filename: ./debs/wSimCity/io.wemy.game.SimCity.deb
+Filename: ./debs/wSimCity/com.wemy.game.SimCity.deb
 Size: 1040420
 MD5sum: c7d69a357738c0730b3370fe00ac93ad
 Description: Hack Tiền SimCity
@@ -27,7 +27,7 @@ Version: 4.1.2
 Section: Hack Game
 Maintainer: wemy
 Architecture: iphoneos-arm
-Filename: ./debs/wZombieTSunami/io.wemy.game.ZombieTSunami.deb
+Filename: ./debs/wZombieTSunami/com.wemy.game.ZombieTSunami.deb
 Size: 1036830
 MD5sum: d05fccef100c9c445ef34ecaac4dac56
 Description: Hack Tiền ZombieTSunami
@@ -39,7 +39,7 @@ Version: 3.27.1
 Section: Hack Game
 Maintainer: wemy
 Architecture: iphoneos-arm
-Filename: ./debs/wZombieTSunami/io.wemy.game.MergeDragons.deb
+Filename: ./debs/wZombieTSunami/com.wemy.game.MergeDragons.deb
 Size: 21192
 MD5sum: b0c6ef728445348b3abba813e9500e99
 Description: Merge Dragons v3.27.1 + 1 hack
