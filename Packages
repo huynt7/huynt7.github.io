@@ -7,7 +7,7 @@ Filename: ./debs/wLienQuan/io.wemy.game.LienQuan.deb
 Size: 1042896
 MD5sum: c7d69a357738c0730b3370fe00ac93ad
 Description: Hack MAP Liên Quân Mobile
-Name: Liên Quân (Hack Map) copy by WEMY
+Name: Liên Quân (Hack Map)
 Author: wemy <tuanhuycntt@gmail.com>
 
 Package: com.k.simcity
@@ -41,7 +41,7 @@ Maintainer: wemy
 Architecture: iphoneos-arm
 Filename: ./debs/wZombieTSunami/io.wemy.game.MergeDragons.deb
 Size: 21192
-MD5sum: d05fccef100c9c445ef34ecaac4dac56
+MD5sum: b0c6ef728445348b3abba813e9500e99
 Description: Merge Dragons v3.27.1 + 1 hack
-Name: ZombieTSunami (Hack)
+Name: MergeDragons (Hack)
 Author: wemy <tuanhuycntt@gmail.com>
