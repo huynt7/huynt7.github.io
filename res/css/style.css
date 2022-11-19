@@ -35,6 +35,18 @@ fieldset>a[href] {
     text-decoration: none;
     vertical-align: baseline
 }
+
+h3 {
+    font-size: 17px;
+    padding: 2px 0;
+}
+
+p {
+    font-size: 15px;
+    color: #8a8888;
+    word-wrap: break-word;
+}
+
 .clearfix:after,
 fieldset>a>div>div:after {
     content: ".";
