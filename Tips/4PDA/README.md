@@ -29,7 +29,7 @@
 
 ## NEW UPDATE
 
-![4DPA-1](https://github.com/huynt7/4PDA/blob/main/img/4dpa-1.jpg)
+![4DPA-1](Tips/4PDA/img/4dpa-1.jpg)
 
 ## Here's a example
 
