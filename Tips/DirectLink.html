@@ -17,11 +17,30 @@
 </head>
 <br>
 <body class="pinstripe">
-		<div class="link-generate">
-			<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
 			
-			<div class="head_title">Google Drive Direct Link Generator</div>
-		
+	<div class="head_title">Google Drive Direct Link Generator</div>
+
+	<a>		
+		<div class="radio">
+			<input id="getGoogle" name="radio" type="radio" checked>
+			<label for="getGoogle" class="radio-label">Google</label>
+		</div>
+		<div class="radio">
+			<input id="getOneDrive" name="radio" type="radio">
+			<label  for="getOneDrive" class="radio-label">One Drive</label>
+		</div>
+		<div class="radio">
+			<input id="getTeraBox" name="radio" type="radio" >
+			<label for="getTeraBox" class="radio-label">TeraBox</label>
+		</div>
+		<div class="radio">
+			<input id="getDropBox" name="radio" type="radio" >
+			<label for="getDropBox" class="radio-label">DropBox</label>
+		</div>
+	</a>
+	
+		<div class="link-generate">
 			<div class="title">Enter your sharing URL:&nbsp;
 				<span class="sub">(Lấy đường link file và paste vào đây)</span>
 			</div>
@@ -32,11 +51,6 @@
 			<input id="output" type="text" readonly="" disabled="">
 			<div id="help-text"></div>
 		</div>
-		<script src="../res/js/direct.js"></script>
-		
-		
-<input name="gender" type="radio" value="Nam" />Nam
-<input name="gender" type="radio" value="Nữ" />Nữ
-<input name="gender" type="radio" value="Khác" />Khác		
+		<script src="../res/js/direct.js"></script>	
 </body>
 </html>
