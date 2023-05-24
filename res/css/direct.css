@@ -2,17 +2,22 @@
             font-family: 'Roboto Condensed', sans-serif;
         }
     
-        .title {
+.title {
             font-size: 1.6em;
             margin: 15px 0 10px;
         }
         
-        .sub {
+.sub {
             font-size: 0.5em;
             color: #444;
             vertical-align: middle;
         }
-        
+.head_title {
+	font-size: 27px;
+	text-align: center;
+	font-weight: bold;
+}
+		
         #button {
             display: block;
             font-family: 'Roboto Condensed', sans-serif;
