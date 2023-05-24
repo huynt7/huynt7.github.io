@@ -3,11 +3,10 @@
 <meta charset="utf-8">
     <title>Huynt's [LINK]</title>
     <base target="_top">
-    <link rel="stylesheet" type="text/css" href="../res/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="../res/css/direct.css" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
     <meta name="format-detection" content="telephone=no">
-	
+	<script type="text/javascript" src="./res/js/thankssaurik.js"></script>
     <link rel="icon" type="image/png" href="../res/images/Huynt.png" sizes="16x16">
     <link rel="icon" type="image/png" href="../res/images/Huynt.png" sizes="32x32">
     <link rel="icon" type="image/png" href="../res/images/Huynt.png" sizes="48x48">
@@ -16,24 +15,28 @@
     <link rel="icon" type="image/png" href="../res/images/Huynt.png" sizes="256x256">
     <link rel="apple-touch-icon" sizes="120x120" href="../res/images/Huynt.png">
 </head>
-
+<br>
 <body class="pinstripe">
-
-	<div class="link-generate">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
+		<div class="link-generate">
+			<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
+			
+			<div class="head_title">Google Drive Direct Link Generator</div>
 		
-		<div class="head_title">Google Drive Direct Link Generator</div>
-    
-		<div class="title">Enter your sharing URL:&nbsp;
-			<span class="sub">(Lấy đường link file và paste vào đây)</span>
+			<div class="title">Enter your sharing URL:&nbsp;
+				<span class="sub">(Lấy đường link file và paste vào đây)</span>
+			</div>
+			
+			<input id="input" type="text">
+			<button id="button">Create Direct Link</button>
+			<div class="title">Output link:</div>
+			<input id="output" type="text" readonly="" disabled="">
+			<div id="help-text"></div>
 		</div>
+		<script src="../res/js/direct.js"></script>
 		
-		<input id="input" type="text">
-		<button id="button">Create Direct Link</button>
-		<div class="title">Output link:</div>
-		<input id="output" type="text" readonly="" disabled="">
-		<div id="help-text"></div>
-	</div>
-	<script src="../res/js/direct.js"></script>
+		
+<input name="gender" type="radio" value="Nam" />Nam
+<input name="gender" type="radio" value="Nữ" />Nữ
+<input name="gender" type="radio" value="Khác" />Khác		
 </body>
 </html>
