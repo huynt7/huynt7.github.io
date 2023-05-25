@@ -17,25 +17,24 @@
 </head>
 <br>
 <body class="pinstripe">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
-			
+	
 	<div class="head_title">Google Drive Direct Link Generator</div>
 
 	<a>		
 		<div class="radio">
-			<input id="getGoogle" name="radio" type="radio" checked>
+			<input id="getGoogle" name="radio" type="radio" disabled>
 			<label for="getGoogle" class="radio-label">Google</label>
 		</div>
 		<div class="radio">
-			<input id="getOneDrive" name="radio" type="radio">
+			<input id="getOneDrive" name="radio" type="radio" disabled>
 			<label  for="getOneDrive" class="radio-label">One Drive</label>
 		</div>
 		<div class="radio">
-			<input id="getTeraBox" name="radio" type="radio" >
+			<input id="getTeraBox" name="radio" type="radio" disabled>
 			<label for="getTeraBox" class="radio-label">TeraBox</label>
 		</div>
 		<div class="radio">
-			<input id="getDropBox" name="radio" type="radio" >
+			<input id="getDropBox" name="radio" type="radio" disabled>
 			<label for="getDropBox" class="radio-label">DropBox</label>
 		</div>
 	</a>
@@ -45,7 +44,7 @@
 				<span class="sub">(Lấy đường link file và paste vào đây)</span>
 			</div>
 			
-			<input id="input" type="text">
+			<input id="input" placeholder="e.g., https://drive.google.com/file/d/1ahBnis4T3Vjk74MNpIjI9yuoEQ4q47SC/view?usp=sharing" type="text" autofocus autocomplete="name">
 			<button id="button">Create Direct Link</button>
 			<div class="title">Output link:</div>
 			<input id="output" type="text" readonly="" disabled="">
