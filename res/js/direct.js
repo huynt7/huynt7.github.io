@@ -18,7 +18,8 @@ helpText.style.color = "#227300";
   
 function go(){
 	var linkId = document.getElementById("input").value;
-	var idExtractor = /\/d\/(.+?)(?:\/|#|\?|$)/;
+	var idExtractor = /\/d\/(.+?)(?:\/|#|\?|$)/;	//tìm kiểu về Regex để hiểu mã
+	
 	var result = idExtractor.exec(linkId);
 	
 	var outputBox = document.getElementById("output");
@@ -52,8 +53,7 @@ setStatus("Couldn't copy link to clipboard. Please copy it manually.", true);
 	}
 }
 
-$(document).ready(function(){
-	$("#but").click(function(){
+function run(){
 		var add = $("#cde").val();
 		var drive = add.indexOf("google.com/file/d/index.html");
 		var drive2 = add.indexOf("google.com/open");
@@ -85,5 +85,4 @@ $(document).ready(function(){
 		} else {
 			$("#linkpaste").val('Xin lỗi, có vẻ như link bạn vừa dán chưa chia sẻ công khai hoặc không đúng! Vui lòng kiểm tra lại!');
 		}
-	});
-});
+	}
