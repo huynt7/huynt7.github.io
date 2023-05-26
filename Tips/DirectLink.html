@@ -17,39 +17,28 @@
 </head>
 <br>
 <body class="pinstripe">
-	
-	<div class="head_title">Google Drive Direct Link Generator</div>
 
-	<a>		
-		<div class="radio">
-			<input id="getGoogle" name="radio" type="radio" disabled>
-			<label for="getGoogle" class="radio-label">Google</label>
-		</div>
-		<div class="radio">
-			<input id="getOneDrive" name="radio" type="radio" disabled>
-			<label  for="getOneDrive" class="radio-label">One Drive</label>
-		</div>
-		<div class="radio">
-			<input id="getTeraBox" name="radio" type="radio" disabled>
-			<label for="getTeraBox" class="radio-label">TeraBox</label>
-		</div>
-		<div class="radio">
-			<input id="getDropBox" name="radio" type="radio" disabled>
-			<label for="getDropBox" class="radio-label">DropBox</label>
-		</div>
-	</a>
+	<div class="head_title">Google Drive Direct Link Generator</div>
+</br>		
+		<marquee direction="left" style="background:orange">Chào Mừng bạn đã đến với Repo của Huynt. Chúc bạn có 1 ngày vui vẻ </marquee>
+</br>
 	
 		<div class="link-generate">
+			
 			<div class="title">Enter your sharing URL:&nbsp;
 				<span class="sub">(Lấy đường link file và paste vào đây)</span>
 			</div>
 			
-			<input id="input" placeholder="e.g., https://drive.google.com/file/d/1ahBnis4T3Vjk74MNpIjI9yuoEQ4q47SC/view?usp=sharing" type="text" autofocus autocomplete="name">
+			
+			<input id="input" type="text" class="form-control">
+
+			
 			<button id="button">Create Direct Link</button>
 			<div class="title">Output link:</div>
-			<input id="output" type="text" readonly="" disabled="">
+			<input id="output" placeholder="e.g., https://drive.google.com/file/d/1ahBnis4T3Vjk74MNpIjI9yuoEQ4q47SC/view?usp=sharing" type="text" readonly="" disabled="">
 			<div id="help-text"></div>
 		</div>
 		<script src="../res/js/direct.js"></script>	
 </body>
+
 </html>
