@@ -1,11 +1,11 @@
 Package: com.laxus.zombietsunami
 Version: 4.1.2
 Section: Hack Game
-Maintainer: wemy
+Maintainer: huynt
 Architecture: iphoneos-arm
-Filename: ./debs/com.wemy.game.ZombieTSunami.deb
+Filename: ./debs/com.huynt.game.ZombieTSunami.deb
 Size: 1036830
 MD5sum: d05fccef100c9c445ef34ecaac4dac56
 Description: Hack Tiền ZombieTSunami
 Name: ZombieTSunami (Hack)
-Author: wemy <tuanhuycntt@gmail.com>
+Author: huynt <tuanhuycntt@gmail.com>

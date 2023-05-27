@@ -62,7 +62,7 @@ body>a {
 	box-shadow: 0 2px 3px -1px #b5b5b5;
 }
 
-#input, #output {
+#cde, #output {
 	font-size: 1.1em;
 	display:block;
 	width:100%;
@@ -71,7 +71,7 @@ body>a {
 	border-radius: 3px;
 }
 
-#input, #output :focus{
+#cde, #output :focus{
 	border-color:#66afe9;
 	box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
 }
