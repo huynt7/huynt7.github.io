@@ -1,0 +1,77 @@
+body {
+  overflow: hidden !important;
+}
+
+#mediafire-url, #mediafire-new-url {
+  font-family: 'Roboto Slab', serif;
+  background: transparent;
+  border-radius: 9px;
+  outline: none;
+  width: 100%;
+  padding: 0.5em;
+}
+
+#mediafire-new-url {
+  font-size: 0.85em;
+  color: gray;
+  border: 3px solid #0077ff;
+  margin: 0.75019em 0 0.75019em 0;
+  display: block;
+}
+
+#mediafire-url {
+  font-size: 1.5em;
+  color: white;
+  border: 3px solid #ffbf00;
+}
+
+#mediafire-dl-p {
+  text-align: center;
+}
+
+#mediafire-dl-btn {
+  margin-left: 0 !important;
+  font-size: 166% !important;
+  text-align: center;
+}
+
+#invalid-url li {
+  margin: 1em 0;
+}
+
+.optional {
+  border-radius: 2px;
+  border: 2px solid yellow;
+  padding: 0.25em;
+  margin: 0 0.125em;
+}
+.required {
+  border-radius: 2px;
+  border: 2px solid green;
+  padding: 0.25em;
+  margin: 0 0.125em;
+}
+
+.optional-key {
+  font-family: monospace;
+  border-radius: 2px;
+  border: 2px solid yellow;
+}
+.required-key {
+  font-family: monospace;
+  border-radius: 2px;
+  border: 2px solid green;
+}
+
+.subtle {
+  color: dimgray;
+}
+
+.disable {
+  opacity: 0.33;
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+}
