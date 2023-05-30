@@ -33,6 +33,11 @@ body>a {
   margin:10px;
 }
 
+fieldset>a[href] {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, .5);
+    -webkit-tap-highlight-color: transparent
+}
+
 * {
     text-decoration: none;
     vertical-align: baseline;

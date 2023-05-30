@@ -53,6 +53,10 @@ setStatus("Couldn't copy link to clipboard. Please copy it manually.", true);
 	}
 }
 
+//https://apaxfranklin-my.sharepoint.com/personal/huynt_apaxleaders_edu_vn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fhuynt%5Fapaxleaders%5Fedu%5Fvn%2FDocuments%2FShare%2F3%2E%20MacOS%2F0%2E%20Create%2FKEXT%2FLilu%2D1%2E4%2E4%2DRELEASE%2Ezip&parent=%2Fpersonal%2Fhuynt%5Fapaxleaders%5Fedu%5Fvn%2FDocuments%2FShare%2F3%2E%20MacOS%2F0%2E%20Create%2FKEXT&ga=1
+
+//https://apaxfranklin-my.sharepoint.com/personal/huynt_apaxleaders_edu_vn/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fhuynt%5Fapaxleaders%5Fedu%5Fvn%2FDocuments%2FShare%2F3%2E%20MacOS%2F0%2E%20Create%2FKEXT%2FLilu%2D1%2E4%2E4%2DRELEASE%2Ezip
+
 function getlink(){
 		var add = $("#cde").val();
 		var drive = add.indexOf("google.com/file/d/");
