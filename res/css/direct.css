@@ -16,9 +16,14 @@
 }
 
 body {
+	-webkit-text-size-adjust: normal;
+    -webkit-touch-callout: normal;
+    -webkit-user-select: normal;
     width: 720px;
     margin: 0 auto;
 	font-family: tyvncms;
+	word-wrap: break-word;
+    width: 640px;
 }
 
 marquee {

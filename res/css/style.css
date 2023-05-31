@@ -1,3 +1,5 @@
+@import "font.css";
+
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
 fieldset>a>div>div>select {
@@ -79,6 +81,9 @@ img.crisp {
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges
 }
+marquee {
+	padding:1px;
+}
 strong {
     font-weight: bold
 }
@@ -95,22 +100,23 @@ pre {
     font-family: monospace
 }
 html.cytyle-faux {
-    font-family: Helvetica, Arial
+    font-family: tyvncms;
 }
 html.cytyle-faux #cytyle-metric {
     font-size: 16px
 }
 html.cytyle-flat {
-    font-family: "Helvetica Neue", Helvetica, Arial
+    font-family: tyvncms;
 }
 html.cytyle-flat #cytyle-metric {
     font-size: 17px
 }
 body {
-    -webkit-text-size-adjust: none;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    margin: 0 auto
+    margin: 0 auto;
+	width: 640px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none; 
+	-moz-user-select: none;    
 }
 body.white {
     background-color: #fff
@@ -121,10 +127,7 @@ body.white {
 .cytyle-flat body.pinstripe {
     background: #efeff4
 }
-body {
-	word-wrap: break-word;
-    width: 640px
-}
+
 @media screen and (max-device-width: 767px) {
     body {
         width: 100%
@@ -139,7 +142,7 @@ div.cy-table {
 }
 panel {
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
 }
 panel>hr {
     margin: 9px auto;
@@ -288,26 +291,7 @@ panel>label {
     text-transform: uppercase;
     font-size: 14px
 }
-panel>footer {
-    display: block;
-    margin: 9px;
-    font-size: 12px;
-    text-align: center
-}
-.cytyle-faux panel>footer {
-    color: #4d4d70
-}
-.cytyle-flat panel>footer {
-    color: #6d6d72
-}
-panel>iframe {
-    display: block;
-    margin: -9px 0
-}
-panel>iframe:first-child,
-panel>iframe+iframe {
-    margin-top: 0
-}
+
 panel>div a {
     color: #586c90;
     font-weight: bold;

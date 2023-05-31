@@ -15,28 +15,6 @@ helpText.style.color = "darkred";
 helpText.style.color = "#227300";
 	}
 }
-  
-function go(){
-	var linkId = document.getElementById("cde").value;
-	var idExtractor = /\/d\/(.+?)(?:\/|#|\?|$)/;	//tìm kiểu về Regex để hiểu mã
-	
-	var result = idExtractor.exec(linkId);
-	
-	var outputBox = document.getElementById("output");
-	
-	
-	if (!result) {
-		outputBox.value = "";
-		setStatus("Error: Invalid URL", true);
-		outputBox.disabled = true;
-		return;
-	}
-	
-	var finalLink = "https://drive.google.com/uc?export=download&id=" + result[1];
-	outputBox.disabled = false;
-	outputBox.value = finalLink;
-	setStatus("Success! Click the output link to copy it to your clipboard");
-}
 
 function copy() {
 	if (this.disabled) {
